@@ -1,6 +1,6 @@
 const config = { 
 //------------Connections-----------//
-    Client_Token: 'ODcwOTY3OTgyNTIyNzc3NjAx.YQUeJA.RN8XQP9yier_SxNEwBnBkmDNmSY',
+    Client_Token: 'ODcwOTY3OTgyNTIyNzc3NjAx.YQUeJA.HUg8ETwWfPiR4ic6Ts4AFz1J6lQ',
     MongoDB_ConnectURL: 'mongodb+srv://Heimdall:o8vSAMidahunO4ys@cluster0.euijz.mongodb.net/database?retryWrites=true&w=majority',
     //------------BotSettings-----------//
     Prefix: '.',
