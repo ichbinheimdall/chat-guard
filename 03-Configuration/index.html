@@ -163,7 +163,7 @@
 <li><code>BotStatus</code> (optional): Presence text (e.g., Watching, default configured in code).</li>
 </ul>
 <h2 id="server-policy-stored-in-mongodb">Server Policy (stored in MongoDB)<a class="headerlink" href="#server-policy-stored-in-mongodb" title="Permanent link">&para;</a></h2>
-<p>Chat Guard persists per‑server configuration and state in the <code>ChatGuard</code> collection. See Data Model for full schema. Key toggles:</p>
+<p>Chat Guard persists per‑server configuration and state in the <code>ChatGuard</code> collection. See <a href="../06-Data-Model/">Data Model</a> for full schema. Key toggles:</p>
 <ul>
 <li><code>CharacterLimit</code> (boolean) — Enforces 500‑character limit</li>
 <li><code>InviteGuard</code> (boolean) — Blocks Discord invites from non‑whitelisted sources</li>
@@ -193,7 +193,8 @@
 <h2 id="internationalization">Internationalization<a class="headerlink" href="#internationalization" title="Permanent link">&para;</a></h2>
 <p>The bot currently sets <code>moment</code> locale to <code>tr</code> for time formatting. If you need a different locale, adjust the locale initialization in <code>src/commands.js</code>.</p>
 <h2 id="secrets-management">Secrets Management<a class="headerlink" href="#secrets-management" title="Permanent link">&para;</a></h2>
-<p>Do not commit tokens or connection strings. Use environment managers (e.g., Heroku config vars, GitHub Actions secrets) and inject into <code>src/config.js</code> during deployment, or refactor to load from environment variables.</p></div>
+<p>Do not commit tokens or connection strings. Use environment managers (e.g., Heroku config vars, GitHub Actions secrets) and inject into <code>src/config.js</code> during deployment, or refactor to load from environment variables.</p>
+<p><a href="../">Back to Docs Index</a> · <a href="../04-Architecture/">Next: Architecture →</a> · <a href="../05-Commands/">See also: Commands</a></p></div>
             </div>
         </div>
 
